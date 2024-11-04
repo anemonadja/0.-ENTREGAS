@@ -32,8 +32,8 @@ body {
     background-color: rgb(140, 140, 140);
     text-align: center;
     color: white;
-    padding-right: 10%;
-    padding: 1px;
+    padding-top: 5px;
+padding-bottom: 5px;
     }
 
 .navbar-list {
@@ -46,6 +46,30 @@ body {
 .navbar-list a {
     color: white;
     text-decoration: none;
+}
+
+.navbar-list a:hover {
+    text-decoration: underline;
+}
+
+.navbar-list a:link {
+    color: rgb(193, 1, 1);
+}
+.navbar-list a:visited {
+    color: rgb(8, 14, 128);
+}
+.navbar-list a:hover {
+    color: rgb(242, 255, 0);
+}
+.navbar-list a:active {
+    color: rgb(193, 1, 1);
+}
+
+.section-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem
 }
 
 @media (min-width: 70em) {
