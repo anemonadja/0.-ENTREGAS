@@ -1,11 +1,13 @@
 body {
-    color: rgb(151, 206, 255);
-    font-family: "Roboto", serif;
-        font-weight: 300;
-        font-style: italic;
+
 }
 
+
 nav {
-    background-color: black;
+    background-color: rgb(255, 201, 201);
     text-align: center;
+}
+
+#bienvenidos {
+    color: rgb(129, 8, 8);
 }
