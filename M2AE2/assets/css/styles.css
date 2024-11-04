@@ -1,13 +1,88 @@
-body {
-
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+    margin: 0 auto;
+    background-color: white;
+    padding: 0 20px 20px 20px;
+    a:link {
+        color: rgb(193, 1, 1);
+        }
+    a:visited {
+        color: rgb(8, 14, 128);
+        }
+    a:hover {
+        color: rgb(242, 255, 0);
+        }
+    a:active {
+        color: rgb(193, 1, 1);
+        }
+    
+}
 
-nav {
-    background-color: rgb(255, 201, 201);
+#navbar {
+    background-color: rgb(140, 140, 140);
     text-align: center;
+    color: white;
+    padding-right: 10%;
+    padding: 1px;
+    }
+
+.navbar-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.navbar-list a {
+    color: white;
+    text-decoration: none;
+}
+
+@media (min-width: 70em) {
+    body {
+        font-size: 130%;
+    }
 }
 
 #bienvenidos {
     color: rgb(129, 8, 8);
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 1px 2px 3px black;
+}
+
+h2 {
+    line-height: 2;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.subtitulos {
+    line-height: 1;
+    text-align: center;
+    color: rgb(80, 37, 37);
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+}
+.servicios {
+    display: block;
+    margin: 0 auto;
 }
